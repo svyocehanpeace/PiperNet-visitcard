@@ -11,33 +11,37 @@
     <div class="mainMain">
       <!--Заглавная полоска, прикреплена и остается на экране при скроле. Ссылки полоски рабочие-->
       <header>
-        <div class="header">
-          <div class="logo">
-            <!--Выравнивание с псевдоэлементом или же флекс?-->
-            <div class="logoImg">
-              <img href='' alt='Лого компании'>
+        <div class="headr">
+          <div class="limHead">
+            <div class="logoMain">
+              <!--Выравнивание с псевдоэлементом или же флекс?-->
+              <div class="logoImg">
+                <!--<img href='' alt='Лого компании'>-->
+              </div>
+              <div class="logoText">
+                <p>piedpiper</p>
+              </div>
             </div>
-            <div class="logoText">
-              <p></p>
+            <!--Можно реализовать при помощи таблицы в блоке-->
+            <div class="menu">
+              <!--Границы нужны выборочно, как сделать-->
+              <table>
+                  <tr>
+                    <th>the problem</th>
+                    <th>|</th>
+                    <th>PiedPiperCoin</th>
+                    <th>|</th>
+                    <th>the team</th>
+                  </tr>
+              </table>
             </div>
-          </div>
-          <!--Можно реализовать при помощи таблицы в блоке-->
-          <div class="menu">
-            <!--Границы нужны выборочно, как сделать-->
-            <table>
-                <tr>
-                  <th></th>
-                  <th></th>
-                  <th></th>
-                </tr>
-            </table>
-          </div>
+        </div>
         </div>
       </header>
       <!--Основная часть скролится как обычно-->
       <main>
         <div class="jumbotron">
-          <h1></h1>
+          <h1 class='white'></h1>
         </div>
         <div class="theProblem">
           <h1 class='greenh'></h1>
@@ -48,7 +52,7 @@
         </div>
         <div class="ppc">
           <h1 class='greenh'></h1>
-          <img href='' alt='ppcLogo'>
+          <!--<img href='' alt='ppcLogo'>-->
           <p></p>
         </div>
         <!--Тут флекс, нужен адаптивный? Или нет, не нужен-->
@@ -95,3 +99,4 @@
     </div>
   </body>
 </html>
+ 
